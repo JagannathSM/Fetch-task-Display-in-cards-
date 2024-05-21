@@ -22,6 +22,7 @@ function display_cards(data1){
                                 <h5 class="card-title">Capital -${data1[i].capital}</h5>
                                 <p class="card-text">Region -${data1[i].region}</p>
                                 <p class="card-text">Language -${data1[i].languages[0].name}</p>
+                                <p class="card-text">{Latitude -${data1[i].latlng[0]}, Longtitude -${data1[i].latlng[1]}}</p>
                             </div>
                             <div class="card-footer bg-transparent border-success">Country Code-${data1[i].cioc}</div>
                         </div>`
